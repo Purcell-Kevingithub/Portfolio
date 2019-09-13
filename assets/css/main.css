@@ -1158,7 +1158,7 @@ input, select, textarea {
 			background-size: cover;
 			background-repeat: no-repeat;
 			z-index: 1;
-			opacity: 0.4;
+			opacity: 0.2;
 
 		}
 
@@ -1656,9 +1656,11 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 /* Form Submission */
 
 	.hpot {
 		display: none;
 	}
-	
+
+/* Misc */
