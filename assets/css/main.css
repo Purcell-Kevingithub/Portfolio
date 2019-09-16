@@ -1664,3 +1664,12 @@ input, select, textarea {
 	}
 
 /* Misc */
+
+#resume a {
+	float: right;
+	padding-top: 2%;
+}
+
+h2.major {
+    display: inline-block;
+}
