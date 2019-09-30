@@ -25,4 +25,4 @@ and hosted on:
 ## Setup
 Clone this repo and then open the index.html in your browser.
   
-  *Note that the contact form will only work on my Github pages because the form is setup through FormSpree.
+* Note that the contact form will only work on my Github pages because the form is setup through FormSpree.
