@@ -1664,10 +1664,22 @@ input, select, textarea {
 
 /* Misc */
 
-#resume a {
+
+#resume p {
 	float: right;
+	width: 50%;
+
 }
 
-h2.major {
-    display: inline-block;
+#stacking {
+	float:left;
+
+}
+
+
+@media screen and (max-width: 450px){
+	#resume p {
+		float: none;
+	}
+
 }

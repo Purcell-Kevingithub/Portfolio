@@ -393,4 +393,9 @@
 						$main._show(location.hash.substr(1), true);
 					});
 
+	// Footer Date
+	window.onload = function(){ 
+		$("#year").text(new Date().getFullYear());
+	}
+
 })(jQuery);
