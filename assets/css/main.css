@@ -1126,14 +1126,14 @@ input, select, textarea {
 		}
 
 		#bg:before {
-			-moz-transition: background-color 2.5s ease-in-out;
-			-webkit-transition: background-color 2.5s ease-in-out;
-			-ms-transition: background-color 2.5s ease-in-out;
-			transition: background-color 2.5s ease-in-out;
-			-moz-transition-delay: 0.75s;
-			-webkit-transition-delay: 0.75s;
-			-ms-transition-delay: 0.75s;
-			transition-delay: 0.75s;
+			-moz-transition: background-color 0.5s ease-in-out;
+			-webkit-transition: background-color 0.5s ease-in-out;
+			-ms-transition: background-color 0.5s ease-in-out;
+			transition: background-color 0.5s ease-in-out;
+			-moz-transition-delay: 0.15s;
+			-webkit-transition-delay: 0.15s;
+			-ms-transition-delay: 0.15s;
+			transition-delay: 0.15s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
 			background-size: auto,
  256px 256px;
@@ -1149,10 +1149,10 @@ input, select, textarea {
 			-webkit-transform: scale(1.125);
 			-ms-transform: scale(1.125);
 			transform: scale(1.125);
-			-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out;
-			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
-			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
-			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
+			-moz-transition: -moz-transform 0.7s ease-in-out, -moz-filter 0.7s ease-in-out;
+			-webkit-transition: -webkit-transform 0.7s ease-in-out, -webkit-filter 0.7s ease-in-out;
+			-ms-transition: -ms-transform 0.7s ease-in-out, -ms-filter 0.7s ease-in-out;
+			transition: transform 0.7s ease-in-out, filter 0.7s ease-in-out;
 			background:url("../../images/laptop.jpg") -100px;
 			background-position: center;
 			background-size: cover;
@@ -1664,19 +1664,13 @@ input, select, textarea {
 	}
 
 /* Misc */
-
-
-
-
 #resume p {
 	float: right;
 	width: 50%;
-
 }
 
 #stacking {
 	float:left;
-
 }
 
 
@@ -1684,14 +1678,12 @@ input, select, textarea {
 	#resume p {
 		float: none;
 	}
-
 }
 
 @media screen and (max-width: 550px){
 	#resume span {
 		display: none;
 	}
-
 }
 
 @media screen and (max-width: 750px){
@@ -1703,12 +1695,7 @@ input, select, textarea {
 		font-size: 2rem;
 	}
 
-
-
 }
-
-
-
 
 .zoom {
 	padding: 50px;
